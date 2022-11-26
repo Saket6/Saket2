@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+body::before{
+content: "";
+background-image: url("pexels-lukas-616401.jpg");
+background-repeat: no-repeat;
+height: 105vh;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0.7;
+z-index: -1;
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgba(63, 27, 27, 0.221);
+    position: sticky;
+    top: 0px;
+}
+#navbar ul{
+    display: flex;
+    padding: 21px;
+    list-style: none;
+    
+}
+
+#navbar ul li a{
+    font-size: large;
+    color: rgb(67, 3, 67);
+    padding: 9px;
+    text-decoration: none;
+    margin: 8px;
+    border-radius: 20px;
+}
+#navbar ul li a:hover{
+    background-color: rgb(235, 202, 202);
+    font-weight: bolder;
+
+}
+#navbar #search{
+    background-color: #8fc57b24;
+    height: 4px;
+    text-align: left;
+    right: 100px;
+    display: flex;
+    position: absolute;
+    /* align-items: end; */
+    /* left: 1200px; */
+    padding: 14px;
+    /* margin: 3px; */
+    width: 234px;
+    border: solid 2px rgb(67, 3, 67);
+    border-radius: 21px;
+}
+#navbar #search::placeholder{
+    font-size: larger;
+    color: rgb(67, 3, 67);
+}
+#navbar #img{
+    position: absolute;
+    right: 65px;
+}
+#sec
+{
+    padding: 12px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}  
+#sec h1{
+    font-size: 46px;
+}
+#sec #btn{
+    background-color: rgba(0, 0, 0, 0.026);
+    height: 43px;
+    width: 109px;
+    padding: 4px;
+    border: solid 2px #820a327f;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+#sec #btn:hover{
+    background-color: rgba(255, 238, 0, 0.37);
+} 
+#sec #btn a{
+    text-decoration: none;
+    font-size: large;
+    color: rgb(67, 3, 67);
+}
+#services{
+    margin-top: 330px;
+    margin-bottom: 50px;
+}
+#services::before{
+    content: "";
+    position: absolute;
+    background-image: url("pexels-ray-piedra-1565982.jpg");
+    height: 117vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+#services #box1{
+    display: flex;
+    justify-content: center;
+
+}
+#services #box2{
+    display: flex;
+    justify-content: center;
+}
+#services h1{
+    text-decoration: underline;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    color: rgb(67, 3, 67);
+}
+#services .box{
+    color: rgb(67, 3, 67);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+#services img{
+    border: solid 2px #e91e1e;
+    border-radius: 50px;
+}
+#login{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login h1{
+    color: rgb(67, 3, 67);
+    font-size: xxx-large;
+    margin-top: 31px;
+    text-decoration: underline;
+}
+#login form ul{
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 16px;
+    border: solid 2px rgb(67, 3, 67);
+    background-color: #00000039;
+    padding: 40px 17px 70px;
+    margin: 134px;
+    height: 457px;
+    width: 314px;
+}
+#login form ul .submit{
+    margin: 10px;
+}
+#login form ul .submit:hover{
+    cursor: pointer;
+    background-color: rgb(67, 3, 67);
+    color: white;
+}
+#login form ul header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login form ul header img{
+    filter: invert(100%);
+}
+#login form ul li{
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    margin: 4px;
+    color: rgb(44, 5, 44);
+}
+#login form ul li input{
+    border-radius: 10px;
+    background: none;
+    padding: 3px;
+    color: rgb(67, 3, 67);
+}
+#login form ul li input::placeholder{
+    font-size: large;
+    color: rgb(12, 3, 3);
+    font-weight: lighter;
+    padding: 2px;
+}
+ 
+
+
+#foot{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+#login::before
+{
+    content: "";
+    position: absolute;
+    background-image: url(pexels-ray-piedra-1565982.jpg);
+    height: 141vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+
+}
